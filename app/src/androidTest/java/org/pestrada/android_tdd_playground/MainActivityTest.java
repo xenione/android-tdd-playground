@@ -48,6 +48,6 @@ public class MainActivityTest {
                 .perform(click());
 
         onView(withId(R.id.textView1))
-                .check(matches(withText("new text to fail test")));
+                .check(matches(withText("new text")));
     }
 }
